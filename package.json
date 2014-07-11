@@ -1,0 +1,50 @@
+{
+  "name": "stream-from",
+  "version": "0.1.0",
+  "description": "Create streams from promises, iterators, factories and arbitrary Javascript values like functions, arrays, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schnittstabil/stream-from.git"
+  },
+  "keywords": [
+    "readable",
+    "object",
+    "stream",
+    "gulpfriendly",
+    "adapter",
+    "to stream",
+    "es6",
+    "array",
+    "sync",
+    "async",
+    "factory",
+    "iterator",
+    "promise",
+    "value"
+  ],
+  "author": "Michael Mayer <michael@schnittstabil.de> (https://github.com/schnittstabil)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schnittstabil/stream-from/issues"
+  },
+  "homepage": "https://github.com/schnittstabil/stream-from",
+  "engines": {
+    "node": "^0.11 || ^0.10"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+  },
+  "dependencies": {
+    "stream-from-array": "^0.1.0",
+    "stream-from-factory": "^0.1.0",
+    "stream-from-iterator": "^0.1.0",
+    "stream-from-promise": "^0.1.0",
+    "stream-from-value": "^0.1.0"
+  }
+}
